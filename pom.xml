@@ -57,8 +57,6 @@
         <connection>scm:git:git@github.com:Jahia/videostreaming.git</connection>
         <url>scm:git:git@github.com:Jahia/videostreaming.git</url>
         <developerConnection>scm:git:git@github.com:Jahia/videostreaming.git</developerConnection>
-        <scmVersion>1_x</scmVersion>
-        <scmVersionType>branch</scmVersionType>
       </scm>
 
     <repositories>
