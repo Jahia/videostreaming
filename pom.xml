@@ -65,4 +65,9 @@
             </snapshots>
         </repository>
     </repositories>
+  <scm>
+    <connection>scm:git:git@github.com:Jahia/videostreaming.git</connection>
+    <url>scm:git:git@github.com:Jahia/videostreaming.git</url>
+    <developerConnection>scm:git:git@github.com:Jahia/videostreaming.git</developerConnection>
+  </scm>    
 </project>
