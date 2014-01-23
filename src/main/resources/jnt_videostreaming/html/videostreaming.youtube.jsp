@@ -8,16 +8,12 @@
 
 <c:choose>
     <c:when test="${not empty currentNode.properties.html5Player && currentNode.properties.html5Player.boolean}">
-        <iframe width="${currentNode.properties.width.long}" height="${currentNode.properties.height.long}"
-                src="//www.youtube.com/embed/${currentNode.properties.identifier.string}"
-                ${currentNode.properties.allowfullscreen.boolean ? " allowfullscreen" : ''}></iframe>
-    </c:when>
+      <c:set var="html5" value="?html5=1"/>
+  </c:when>
     <c:otherwise>
-        <object width="${currentNode.properties.width.long}" height="${currentNode.properties.height.long}" type="application/x-shockwave-flash">
-            <param name="allowFullScreen" value="${currentNode.properties.allowfullscreen.boolean}"/>
-            <param name="allowscriptaccess" value="always"/>
-            <param name="movie" value="http://www.youtube.com/v/${currentNode.properties.identifier.string}"/>
-            <embed src="http://www.youtube.com/v/${currentNode.properties.identifier.string}" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="${currentNode.properties.allowfullscreen.boolean}" width="${currentNode.properties.width.long}" height="${currentNode.properties.height.long}"/>
-        </object>
+      <c:set var="html5" value=""/>
     </c:otherwise>
 </c:choose>
+        <iframe width="${currentNode.properties.width.long}" height="${currentNode.properties.height.long}"
+                src="//www.youtube.com/embed/${currentNode.properties.identifier.string}${html5}"
+                ${currentNode.properties.allowfullscreen.boolean ? " allowfullscreen" : ''}></iframe>
