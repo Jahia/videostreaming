@@ -8,7 +8,7 @@
 
 <c:choose>
     <c:when test="${not empty currentNode.properties.html5Player && currentNode.properties.html5Player.boolean}">
-        <iframe src="http://www.dailymotion.com/embed/video/${currentNode.properties.identifier.string}"
+        <iframe src="//www.dailymotion.com/embed/video/${currentNode.properties.identifier.string}"
                 width="${currentNode.properties.width.long}"
                 height="${currentNode.properties.height.long}"
                 ${currentNode.properties.allowfullscreen.boolean ? " allowfullscreen" : ''}></iframe>
