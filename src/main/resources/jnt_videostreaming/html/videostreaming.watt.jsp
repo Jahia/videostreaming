@@ -8,7 +8,7 @@
 
 <c:choose>
     <c:when test="${not empty currentNode.properties.html5Player && currentNode.properties.html5Player.boolean}">
-        <iframe src="http://www.wat.tv/embedframe/${currentNode.properties.identifier.string}?autoStart=0"
+        <iframe src="//www.wat.tv/embedframe/${currentNode.properties.identifier.string}?autoStart=0"
                 width="${currentNode.properties.width.long}" height="${currentNode.properties.height.long}"></iframe>
     </c:when>
     <c:otherwise>
