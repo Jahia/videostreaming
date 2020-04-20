@@ -62,6 +62,9 @@
     <url>scm:git:git@github.com:Jahia/videostreaming.git</url>
     <tag>HEAD</tag>
   </scm>
+  <properties>
+    <jahia-module-signature>MCwCFHl85vUOnaxA83eLfdxIO9c2mpJkAhQMIbwgo0XsB53Bfxm7C0Ym/rCiRg==</jahia-module-signature>
+  </properties>
   <repositories>
     <repository>
       <releases>
