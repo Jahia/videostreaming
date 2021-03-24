@@ -28,7 +28,7 @@
         GNU General Public License for more details.
 
         You should have received a copy of the GNU General Public License
-        along with this program. If not, see <http://www.gnu.org/licenses/>.
+        along with this program. If not, see <http://www.gnu.org/licenses />.
 
 
         2/ JSEL - Commercial and Supported Versions of the program
@@ -52,7 +52,7 @@
     <version>8.0.2.0</version>
   </parent>
   <artifactId>videostreaming</artifactId>
-  <version>3.0.0-SNAPSHOT</version>
+  <version>3.0.0</version>
   <packaging>bundle</packaging>
   <name>Jahia Video Streaming</name>
   <description>These are the custom module (Jahia Video Streaming) for running on a Jahia server.</description>
@@ -60,7 +60,7 @@
     <connection>scm:git:git@github.com:Jahia/videostreaming.git</connection>
     <developerConnection>scm:git:git@github.com:Jahia/videostreaming.git</developerConnection>
     <url>scm:git:git@github.com:Jahia/videostreaming.git</url>
-    <tag>HEAD</tag>
+    <tag>3_0_0</tag>
   </scm>
   <properties>
     <jahia-module-signature>MCwCFHl85vUOnaxA83eLfdxIO9c2mpJkAhQMIbwgo0XsB53Bfxm7C0Ym/rCiRg==</jahia-module-signature>
